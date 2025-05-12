@@ -2,9 +2,9 @@
 
 double calculate_sum(int n) {
     if (n == 1) {
-        return (2.0 * n - 1) / n; // Базовий випадок: перший елемент суми
+        return (2.0 * n - 1) / n;
     } else {
-        return ((2.0 * n - 1) / n) + calculate_sum(n - 1); // Рекурсивний виклик
+        return ((2.0 * n - 1) / n) + calculate_sum(n - 1);
     }
 }
 
